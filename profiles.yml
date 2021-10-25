@@ -6,13 +6,13 @@ default:
 
     dev: # User-Password config
       type: snowflake
-      account: your-snowflake-account-id-here
-      user: DBT_CLOUD_DEV
-      password: your-password-here
-      role: TRANSFORMER_DEV
-      database: DEV
-      warehouse: TRANSFORMING
-      schema: dbt_your-username-here
+      account: bcg.eu-central-1
+      user: SRV_DBT_CICD_SANDBOX
+      password: x%zdQBNZ?2AE^a3dKjBZ
+      role: SANDBOX_DBT_CICD_POC_ROLE
+      database: SANDBOX
+      warehouse: DEMO_WH
+      schema: DBT_CICD
       threads: 2
       client_session_keep_alive: False
 
