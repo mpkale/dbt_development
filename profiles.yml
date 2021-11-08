@@ -12,7 +12,7 @@ default:
       role: SANDBOX_DBT_CICD_POC_ROLE
       database: SANDBOX
       warehouse: DEMO_WH
-      schema: DBT_AMH
+      schema: DBT_CICD
       threads: 2
       client_session_keep_alive: False
 
